@@ -1,0 +1,22 @@
+[31m✗[39m Build failed in 2.98s
+[31merror during build:
+[31msrc/app/pages/staff/StaffDashboard.tsx (9:9): "subjectsAPI" is not exported by "src/services/api.js", imported by "src/app/pages/staff/StaffDashboard.tsx".[31m
+file: [36mE:/FinalProject/src/app/pages/staff/StaffDashboard.tsx:9:9[31m
+[33m
+ 7: import { motion } from 'motion/react';
+ 8: import { useAuth } from '../../contexts/AuthContext';
+ 9: import { subjectsAPI } from '../../../services/api';
+             ^
+10: // We'll need a subject API route if it exists, or derive it from the user profile/attendance stats. 
+11: // Assuming the backend has a way to get staff subjects. Let's check API_INTEGRATION_GUIDE.
+[31m
+    at getRollupError (file:///E:/FinalProject/node_modules/rollup/dist/es/shared/parseAst.js:402:41)
+    at error (file:///E:/FinalProject/node_modules/rollup/dist/es/shared/parseAst.js:398:42)
+    at Module.error (file:///E:/FinalProject/node_modules/rollup/dist/es/shared/node-entry.js:17040:16)
+    at Module.traceVariable (file:///E:/FinalProject/node_modules/rollup/dist/es/shared/node-entry.js:17452:29)
+    at ModuleScope.findVariable (file:///E:/FinalProject/node_modules/rollup/dist/es/shared/node-entry.js:15070:39)
+    at ReturnValueScope.findVariable (file:///E:/FinalProject/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at FunctionBodyScope.findVariable (file:///E:/FinalProject/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at ReturnValueScope.findVariable (file:///E:/FinalProject/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at FunctionBodyScope.findVariable (file:///E:/FinalProject/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at ReturnValueScope.findVariable (file:///E:/FinalProject/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)[39m

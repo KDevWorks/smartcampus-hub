@@ -1,7 +1,4 @@
 {
-  "engines":{
-    "node": "24.11.1"
-  },
   "name": "@figma/my-make-file",
   "private": true,
   "version": "0.0.1",
